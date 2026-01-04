@@ -1031,9 +1031,13 @@ body::before,
 
   .footer-left, .footer-right {
     /* gap: 20px; */
+    align-items: center;
     flex-direction: column;
+    text-align: center;
   }
-
+.footer-logo{
+  margin: 0px auto 15px;
+}
   .about-points{
     grid-template-columns: 1fr;
   }
